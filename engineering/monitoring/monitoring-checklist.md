@@ -32,6 +32,7 @@
 | لا سلاسل DOCKER/DOCKER-USER | cron يفحص `iptables -t nat` | `troubleshooting/docker-iptables-isolation.md` |
 | HTTPS على `192.168.90.1` يستجيب | cron/nagios HTTP check | `troubleshooting/opnsense-webgui-lan-only.md` |
 | لا MAC جديد على الشبكة العامة | cron يفحص `ip neigh` | `troubleshooting/hetzner-mac-block.md` |
+| مساحة `rpool` المتاحة > 350G + سرعة الامتلاء + snapshots أقدم من 7 أيام | Prometheus node_exporter + Alertmanager → Telegram | `troubleshooting/zfs-pool-full-node-freeze.md` |
 
 ## الأدلة التقنية المرتبطة (للتفصيل)
 - `engineering/infrastructure/proxmox-setup.md` — ZFS/Storage/Snapshot

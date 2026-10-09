@@ -27,4 +27,5 @@
 | `ssh-drop-net-restart.md` | networking | إعادة تطبيق الشبكة بـ systemctl بدل ifreload → قطع SSH |
 | `docker-iptables-isolation.md` | virtualization | `"iptables": true` يضيف قواعد NAT تكسر عزل Proxmox |
 | `opnsense-webgui-lan-only.md` | networking | واجهة إدارة OPNsense على LAN فقط (WAN محجوب افتراضيا) |
+| `zfs-pool-full-node-freeze.md` | infrastructure / monitoring | Overselling للمساحة + snapshots قديمة + لا تنبيه على المساحة → امتلاء rpool على prox2new وتجمد كل الـ VMs |
 | <!-- أضف حالة جديدة في هذا الجدول عند الكتابة --> | <!-- --> | <!-- --> |
