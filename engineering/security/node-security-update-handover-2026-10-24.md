@@ -3,10 +3,10 @@
 
 # Mosalam.com — Node.js Security Update Handover
 
-**Date:** 24 October 2026  
-**Company:** Mosalam.com  
-**Server:** `root@49.12.59.140` / `hosting.mosalam.com` / `dockerstation.mosalam.com`  
-**Classification:** Public handover copy. Passwords, tokens, private keys and private environment files excluded. Server identifiers, domains and account names retained as authorized.  
+**Date:** 24 October 2026<br>
+**Company:** Mosalam.com<br>
+**Server:** `root@49.12.59.140` / `hosting.mosalam.com` / `dockerstation.mosalam.com`<br>
+**Classification:** Public handover copy. Passwords, tokens, private keys and private environment files excluded. Server identifiers, domains and account names retained as authorized.<br>
 **Status:** Runtime rollout complete; source changes and per-repository reports pushed to all 19 associated repositories across 20 branches.
 
 ## Outcome
