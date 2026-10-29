@@ -1,0 +1,4 @@
+--- a/whmcs/compose/docker-compose.yml
++++ b/whmcs/compose/docker-compose.yml
+@@ -37,0 +38 @@
++    - ./php-fpm/session-security.ini:/usr/local/etc/php/conf.d/zzzz-mosalam-session-security.ini:ro
